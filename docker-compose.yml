@@ -1,7 +1,9 @@
-version: '2'
+version: '3'
 
 services:
-  redis-master:
+  api:
+    build:
+  redis:
     image: 'bitnami/redis:latest'
     ports:
       - '6379'
