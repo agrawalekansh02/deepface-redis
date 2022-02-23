@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  redis-master:
+    image: 'bitnami/redis:latest'
+    ports:
+      - '6379'
+    volumes:
+      - '/data:/bitnami'
