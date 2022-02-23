@@ -10,7 +10,13 @@ Proof of concept of using DeepFace API with Redis key-pair storage for sub-milli
 - Redis
 - DeepFace
 
-## Get Started
+## Getting Started
+
+The demo has been containerized so run the following command to spin up the API + Redis:
+
+```sh
+sudo docker-compose up
+```
 
 ## License
 
