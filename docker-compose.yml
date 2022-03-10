@@ -1,11 +1,14 @@
 version: '3'
 
+volumes:
+  alecto-redis:
+
 services:
-  api:
-    build:
   redis:
     image: 'bitnami/redis:latest'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
     ports:
       - '6379'
     volumes:
-      - '/data:/bitnami'
+      - 'alecto-redis:/bitnami'
