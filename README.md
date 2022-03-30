@@ -18,6 +18,8 @@ The demo has been containerized so run the following command to spin up the API 
 sudo docker-compose up
 ```
 
+Functions from the `test.ipynb` notebook can be ran regularly to interface with Redis server/
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
